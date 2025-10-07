@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Sierra de Peñasagra - Corremos por Adriana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+            width: 100%;
+            padding: 50px 40px;
+            text-align: center;
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            font-size: 48px;
+            margin-bottom: 20px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #764ba2;
+            font-size: 20px;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .maintenance-icon {
+            font-size: 80px;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+
+        .message {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-left: 4px solid #667eea;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .message h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .message p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .info-box p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 25px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+            }
+
+            .maintenance-icon {
+                font-size: 60px;
+            }
+
+            .message h2 {
+                font-size: 20px;
+            }
+
+            .message p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">⛰️</div>
+        
+        <h1>Trail Sierra de Peñasagra</h1>
+        <div class="subtitle">Corremos por Adriana</div>
+        
+        <div class="maintenance-icon">🔧</div>
+        
+        <div class="message">
+            <h2>Problemas Técnicos</h2>
+            <p>Actualmente estamos experimentando problemas técnicos con nuestra plataforma web. Estamos trabajando para solucionarlo lo antes posible.</p>
+        </div>
+        
+        <div class="info-box">
+            <p><strong>⏰ El servicio se restablecerá en los próximos días</strong></p>
+            <p>Lamentamos las molestias ocasionadas y agradecemos tu paciencia.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Trail Sierra de Peñasagra 2025</p>
+            <p class="contact">Gracias por tu comprensión</p>
+        </div>
+    </div>
+</body>
+</html>
